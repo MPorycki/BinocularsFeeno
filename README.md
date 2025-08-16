@@ -1,3 +1,5 @@
+This is a fork of https://github.com/AHans30/Binoculars , I do not own any of it
+
 # <img src="./assets/bino-logo.svg" width=40 style="padding-top: 0px"/>  Binoculars: Zero-Shot Detection of LLM-Generated Text [[paper]](https://arxiv.org/abs/2401.12070)[[demo]](https://huggingface.co/spaces/tomg-group-umd/Binoculars)
 
 <p align="center">
