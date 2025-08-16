@@ -16,7 +16,7 @@ def run_detector(input_str):
     if count_tokens(input_str) < MINIMUM_TOKENS:
         gr.Warning(f"Too short length. Need minimum {MINIMUM_TOKENS} tokens to run Binoculars.")
         return ""
-    return f"{BINO.predict(input_str)}"
+    return (f"{BINO.predict(input_str)}", BINO.compute_score(input_str))
 
 
 def change_mode(mode):
